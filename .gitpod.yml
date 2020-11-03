@@ -5,3 +5,7 @@ tasks:
 ports:
   - port: 8000
     onOpen: open-preview
+
+vscode:
+  extensions:
+    - ms-vscode.vscode-typescript-tslint-plugin@1.2.2:0nQ3PEEA0NPEt3UcbCYiIQ==
