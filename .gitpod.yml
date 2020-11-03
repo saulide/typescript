@@ -1,8 +1,5 @@
-# The Docker image to run your workspace in. Defaults to gitpod/workspace-full
-image: node
-# Command to start on workspace startup (optional)
+image: gadgetrony/typescript
 tasks:
-  - command: npm install -g typescript
   - init: npm install
 # Ports to expose on workspace startup (optional)
 ports:
