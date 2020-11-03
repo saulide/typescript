@@ -6,8 +6,8 @@
       "request": "launch",
       "name": "Launch Program",
       "program": "${workspaceFolder}/exercise1.ts",
-      "preLaunchTask": "tsc: build - tsconfig.json",
-      "outFiles": ["${workspaceFolder}/out/**/*.js"]
+      "preLaunchTask": "npm: debug",
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"]
     }
   ]
 }
