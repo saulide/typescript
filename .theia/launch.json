@@ -5,7 +5,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/exercise1.ts",
+      "program": "${file}",
       "preLaunchTask": "npm: debug",
       "outFiles": ["${workspaceFolder}/dist/**/*.js"]
     }
