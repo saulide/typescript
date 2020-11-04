@@ -13,16 +13,3 @@ interface HeaderState {
 }
 
 // Picking/Subsetting
-
-type THeaderState = {
-    userId: State['userId'];
-    title: State['title'];
-}
-
-type THeaderState2 = {
-    [k in 'userId' | 'title']: State[k]
-}
-
-
-
-type THeaderStatePick = Pick<State, 'userId' | 'title'>

@@ -12,8 +12,6 @@ interface Options {
     isTrusted: false
 }
 
-type InitOptions = typeof INIT_VARS;
-
 // That about return values?
 
 const userVal = (id: string) => {
@@ -27,4 +25,3 @@ const userVal = (id: string) => {
 }
 // Usage Of Generic ReturnType
 
-type UserValues = ReturnType<typeof userVal>
