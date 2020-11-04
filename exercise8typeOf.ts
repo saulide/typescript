@@ -25,5 +25,6 @@ const userVal = (id: string) => {
         id3
     }
 }
+// Usage Of Generic ReturnType
 
 type UserValues = ReturnType<typeof userVal>

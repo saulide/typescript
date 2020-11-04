@@ -1,4 +1,4 @@
-// Subset of state
+// Task: Create a subset of State
 
 interface State {
     userId: string;
@@ -19,9 +19,10 @@ type THeaderState = {
     title: State['title'];
 }
 
-// Move mouse over THeaderState2
 type THeaderState2 = {
     [k in 'userId' | 'title']: State[k]
 }
+
+
 
 type THeaderStatePick = Pick<State, 'userId' | 'title'>

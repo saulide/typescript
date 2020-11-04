@@ -9,7 +9,7 @@ interface LoadButton {
 type Button = SaveButton | LoadButton;
 type ButtonType = 'save' | 'load';
 
-// Exercise for all: Make it dry!
+// Making it DRY
 
 type TButtonType = Button['type'];
 

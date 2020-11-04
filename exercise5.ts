@@ -10,7 +10,7 @@ interface IState {
     id: string;
 }
 
-// index signature
+// Using index signature
 type TStateExt = { [key: string] : string}
 interface IStateExt {
     [key: string] : string
@@ -32,7 +32,7 @@ interface IStateReducer {
     (x: string): string;
 }
 
-// Extending
+// Extending Types
 
 type TBox = {
     name: string;
@@ -42,14 +42,14 @@ type TBoxExt = TBox & {
     placeInShelf: number
 }
 
-// Extending Union types
+// Extending Union types just for types
 
 type TUnion = TBox | TState;
 type TRayTraycing = TUnion & {
     source: string;
 }
 
-// Declaration merging
+// Declaration merging (interface only)
 
 interface IBook {
     name: string;
